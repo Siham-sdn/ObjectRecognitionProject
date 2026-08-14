@@ -70,7 +70,7 @@ L’interface est composée de :
 
 Le traitement des médias suit le principe suivant :
 
-```text
+```bash
 Image / Vidéo / Webcam
           ↓
         OpenCV
@@ -88,11 +88,11 @@ Image / Vidéo / Webcam
       Interface PyQt6
           ↓
     Affichage du résultat
-```text
+```bash
 
 
 ## Installation & exécution
-```text
+```bash
 # Cloner le dépôt
 git clone https://github.com/VOTRE-NOM/ObjectRecognitionProject.git
 
@@ -110,13 +110,13 @@ pip install -r requirements.txt
 
 # Lancer l'application
 python gui.py
-```text
+```bash
 
 ## Modèle YOLO:
 Le projet utilise le modèle **YOLOv8n** et il doit être placé dans le dossier **models**
 
-### Chemins
-```text
+## Chemins
+```bash
 / (root)
   ├── gui.py
   ├── main.py
@@ -132,4 +132,4 @@ Le projet utilise le modèle **YOLOv8n** et il doit être placé dans le dossier
   │
   └── results/
       └── Résultats des détections
-```text
+```bash
