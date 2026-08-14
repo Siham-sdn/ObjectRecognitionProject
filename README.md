@@ -88,3 +88,43 @@ Image / Vidéo / Webcam
       Interface PyQt6
           ↓
     Affichage du résultat
+
+
+# Installation & exécution
+# Cloner le dépôt
+git clone https://github.com/VOTRE-NOM/ObjectRecognitionProject.git
+
+# Accéder au projet
+cd ObjectRecognitionProject
+
+# Créer l'environnement virtuel
+python -m venv venv
+
+# Activer l'environnement virtuel sous Windows
+venv\Scripts\activate
+
+# Installer les dépendances
+pip install -r requirements.txt
+
+# Lancer l'application
+python gui.py
+
+# Modèle YOLO:
+Le projet utilise le modèle **YOLOv8n** et il doit être placé dans le dossier **models**
+
+# Chemins
+/ (root)
+  ├── gui.py
+  ├── main.py
+  ├── camera_detection.py
+  ├── requirements.txt
+  ├── README.md
+  │
+  ├── models/
+  │   └── yolov8n.pt
+  │
+  ├── images/
+  │   └── Images et vidéos de test
+  │
+  └── results/
+      └── Résultats des détections
