@@ -88,9 +88,11 @@ Image / Vidéo / Webcam
       Interface PyQt6
           ↓
     Affichage du résultat
+```text
 
 
-### Installation & exécution
+## Installation & exécution
+```text
 # Cloner le dépôt
 git clone https://github.com/VOTRE-NOM/ObjectRecognitionProject.git
 
@@ -108,11 +110,13 @@ pip install -r requirements.txt
 
 # Lancer l'application
 python gui.py
+```text
 
 ## Modèle YOLO:
 Le projet utilise le modèle **YOLOv8n** et il doit être placé dans le dossier **models**
 
 ### Chemins
+```text
 / (root)
   ├── gui.py
   ├── main.py
@@ -128,3 +132,4 @@ Le projet utilise le modèle **YOLOv8n** et il doit être placé dans le dossier
   │
   └── results/
       └── Résultats des détections
+```text
