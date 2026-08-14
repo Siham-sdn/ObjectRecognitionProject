@@ -90,7 +90,7 @@ Image / Vidéo / Webcam
     Affichage du résultat
 
 
-## Installation & exécution
+### Installation & exécution
 # Cloner le dépôt
 git clone https://github.com/VOTRE-NOM/ObjectRecognitionProject.git
 
@@ -112,7 +112,7 @@ python gui.py
 ## Modèle YOLO:
 Le projet utilise le modèle **YOLOv8n** et il doit être placé dans le dossier **models**
 
-## Chemins
+### Chemins
 / (root)
   ├── gui.py
   ├── main.py
