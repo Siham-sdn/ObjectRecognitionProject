@@ -57,7 +57,7 @@ Pour exécuter le projet, il vous faut :
 
 L’interface est composée de :
 
-<img width="960" height="540" alt="Interface YOLO" src="URL_DE_TA_CAPTURE_ICI" />
+![Interface de l'application](image.png)
 
 - **Zone d’affichage centrale** : affichage des images, vidéos et flux webcam
 - **Zone des objets détectés** : affichage des classes détectées et de leur niveau de confiance
