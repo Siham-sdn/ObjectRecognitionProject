@@ -66,31 +66,6 @@ L’interface est composée de :
 - **Bouton Arrêter** : arrêt de la caméra ou de la vidéo
 - **Bouton Enregistrer résultat** : sauvegarde du résultat de la détection
 
-## Fonctionnement
-
-Le traitement des médias suit le principe suivant :
-
-```bash
-Image / Vidéo / Webcam
-          ↓
-        OpenCV
-          ↓
-      Modèle YOLO
-          ↓
-  Détection des objets
-          ↓
- ┌─────────────────────┐
- │ Classe de l'objet   │
- │ Cadre de détection  │
- │ Confiance (%)       │
- └─────────────────────┘
-          ↓
-      Interface PyQt6
-          ↓
-    Affichage du résultat
-```bash
-
-
 ## Installation & exécution
 ```bash
 # Cloner le dépôt
@@ -110,7 +85,7 @@ pip install -r requirements.txt
 
 # Lancer l'application
 python gui.py
-```bash
+```
 
 ## Modèle YOLO:
 Le projet utilise le modèle **YOLOv8n** et il doit être placé dans le dossier **models**
@@ -132,4 +107,4 @@ Le projet utilise le modèle **YOLOv8n** et il doit être placé dans le dossier
   │
   └── results/
       └── Résultats des détections
-```bash
+```
